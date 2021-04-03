@@ -1,0 +1,22 @@
+/**
+ * section-header
+ */
+
+.section-header {
+	padding: 40px 0 0 0;
+	font-family: "Akzidenz-Grotesk-Bold-Extended";
+	text-transform: uppercase;
+	font-size: 48px;
+}
+
+@media (min-width: 768px) {
+	.section-header {
+		padding: 64px 0 0 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.section-header {
+		font-size: 28px;
+	}
+}
